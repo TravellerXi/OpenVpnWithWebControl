@@ -26,7 +26,7 @@ OpenVpnWithWebControl
 
 #Python 3，在下述安装中，使用Python3.6.5，其他Python3版本亦可。（也就是说如果安装了Python3，您可以跳过Python3，安装，只需执行pip3 install flask pymysql paramiko requests）
 
-#数据库采用Mysql，默认开启用户openvpn，密码openvpn，建立数据库openvpn。
+#数据库采用Mysql，默认创建用户openvpn，密码openvpn，建立本地数据库openvpn。
 
 
 ###安装必要组件，下载源码和创建文件夹
