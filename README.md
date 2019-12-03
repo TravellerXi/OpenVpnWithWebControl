@@ -59,7 +59,7 @@ yum install unzip -y
 vi /etc/sysconfig/iptables
 
 
-###在COMMIT前一行加一句：
+###在任意'-A INPUT'下一行加一句：
 
 -A INPUT -p tcp -m state --state NEW -m tcp --dport 80 -j ACCEPT
 
