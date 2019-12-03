@@ -326,7 +326,7 @@ def change_passwd_post():
         check.execute(usernameSQL)
         db.commit()
         db.close()
-        return (title_setup_pc('注册成功') + '注册成功！<br><a href="/signin">返回登录</a>')
+        return (title_setup_pc('修改成功') + '密码修改成功！<br><a href="/signin">返回登录</a>')
     else:
         return redirect(title_setup_pc('error')+'用户未登陆！<br><a href="/signin">返回登录</a>&nbsp<a href="/signup">返回注册</a>')
 
