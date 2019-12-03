@@ -65,8 +65,24 @@ unzip master
 \cp -R -f OpenVpnWithWebControl-master/* /openvpn/
 
 
-Error: Cannot retrieve metalink for repository: epel. Please verify its path and try again  /etc/yum.repos.d/epel.repo
-mirrorlist=http://mirrors.fedoraproject.org/metalink?repo=epel-6&arch=$basearch (改为http)
+
+###安装OPENVPN核心组件
+
+cd /openvpn
+
+chmod +x install-vpn.sh
+
+./install-vpn.sh
+
+#如果遇到以下错误：
+
+Error: Cannot retrieve metalink for repository: epel. Please verify its path and try again  
+
+
+请修改/etc/yum.repos.d/epel.repo文件中的mirrorlist=http://mirrors.fedoraproject.org/metalink?repo=epel-6&arch=$basearch (改为http)，具体操作：
+
+vi /etc/yum.repos.d/epel.repo (改，然后保存)
+
 yum clean all && yum makecache
 
 
