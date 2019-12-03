@@ -4,7 +4,7 @@ from flask import Flask,request,session,redirect,Response
 #from flask_sqlalchemy import SQLAlchemy
 import pymysql
 #import upload.py
-from sso import *
+#from sso import *
 from vpn import *
 from md5 import *
 from htmlbase import *
