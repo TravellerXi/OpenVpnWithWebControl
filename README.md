@@ -127,6 +127,10 @@ nohup python3 /openvpn/main.py > /openvpn/main.log 2>&1 &
 
 
 ###注意：
+
 ###默认管理员admin，密码admin
-###默认邀请注册码openvpn。
+
+###默认邀请注册码openvpn
+
 ###请登入系统后尽快修改管理员密码以及注册码。
+
