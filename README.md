@@ -5,7 +5,19 @@ OpenVpnWithWebControl
 <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
 
 
-###本软件提供web界面的OPENVPN，以下是安装本软件方法：
+###这是一款提供web管理界面的OPENVPN，功能包括但不限于（仍在开发）：
+
+#1.管理员登录。
+
+#2.用户登录
+
+#3 管理员添加，删除用户。添加管理员。
+
+#4. 用户自助下载，配置VPN.
+
+
+
+以下是安装本软件方法：
 
 
 ###必读：
