@@ -14,7 +14,8 @@ OpenVpnWithWebControl
 
 ###安装必要组件，下载源码和创建文件夹
 
-yum -y install gcc<br>
+yum -y install gcc
+
 mkdir /openvpn <br>
 yum install -y mysql-server mysql mysql-devel <br>
 yum install -y wget unzip<br>
@@ -27,24 +28,24 @@ yum install -y expect<br>
 yum install libffi-devel -y<br>
 yum install unzip -y<br>
 
-vi /etc/sysconfig/iptables
+vi /etc/sysconfig/iptables<br>
 
 ###在COMMIT前一行加一句：
 
--A INPUT -p tcp -m state --state NEW -m tcp --dport 80 -j ACCEPT
+-A INPUT -p tcp -m state --state NEW -m tcp --dport 80 -j ACCEPT<br>
 ####
 
-service iptables restart
+service iptables restart<br>
 
-cd /openvpn
-wget https://codeload.github.com/TravellerXi/OpenVpnWithWebControl/zip/master
-unzip master
-\cp -R -f OpenVpnWithWebControl-master/* /openvpn/
+cd /openvpn<br>
+wget https://codeload.github.com/TravellerXi/OpenVpnWithWebControl/zip/master<br>
+unzip master<br>
+\cp -R -f OpenVpnWithWebControl-master/* /openvpn/<br>
 
 Error: Cannot retrieve metalink for repository: epel. Please verify its path and try again  /etc/yum.repos.d/epel.repo
 mirrorlist=http://mirrors.fedoraproject.org/metalink?repo=epel-6&arch=$basearch (改为http)
-yum clean all && yum makecache
-
+yum clean all && yum makecache<br>
+<br>
 ####配置启动mysql
 service mysql start
 mysql -uroot < /openvpn/openvpn.sql
