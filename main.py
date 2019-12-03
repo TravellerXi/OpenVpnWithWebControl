@@ -322,7 +322,7 @@ def change_passwd_post():
         md5hash = md5(password)
         db = pymysql.connect('localhost', 'openvpn', 'openvpn', 'openvpn')
         check = db.cursor()
-        usernameSQL = "insert into openvpn.user (username,password,md5) VALUES (" + "'" + username + "'" + "," + "'" + password + "'" + "," + "'" + md5hash + "'"  + ")"
+        usernameSQL = "update openvpn.user set password="+"'"+password+"'"+", md5="+"'"+md5hash+"'"+" where username="+"'"+username+"'"
         check.execute(usernameSQL)
         db.commit()
         db.close()
