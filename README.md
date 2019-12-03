@@ -2,6 +2,9 @@
 # OpenVpnWithWebControl
 OpenVpnWithWebControl
 
+<a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
+
+
 ###本软件提供web界面的OPENVPN，以下是安装本软件方法：
 
 ###必读：
