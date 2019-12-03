@@ -120,8 +120,8 @@ def home():
         return(f.read())
 
  
-@app.route('/introduce', methods=['GET', 'POST'])
-def home():
+@app.route('/introduce', methods=['GET'])
+def introduce_post():
     with open('static/introuduce.html','r',encoding='utf-8') as f:
         return(f.read())
 
