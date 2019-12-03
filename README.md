@@ -86,6 +86,8 @@ chmod +x openvpn-install.sh
 
 bash openvpn-install.sh
 
+####上面这个命令一路回车即可
+
 #如果遇到以下错误：
 
 Error: Cannot retrieve metalink for repository: epel. Please verify its path and try again  
