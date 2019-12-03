@@ -13,6 +13,7 @@ OpenVpnWithWebControl
 #数据库采用Mysql，默认开启用户openvpn，密码openvpn，建立数据库openvpn。
 
 ###安装必要组件，下载源码和创建文件夹
+
 yum -y install gcc
 mkdir /openvpn 
 yum install -y mysql-server mysql mysql-devel 
