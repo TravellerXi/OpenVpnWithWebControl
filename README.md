@@ -99,6 +99,8 @@ vi /etc/yum.repos.d/epel.repo (改，然后保存)
 
 yum clean all && yum makecache
 
+然后重新运行bash openvpn-install.sh，选择3，remove VPN。然后重新运行bash openvpn-install.sh，一路回车即可。
+
 
 
 ####配置启动mysql
