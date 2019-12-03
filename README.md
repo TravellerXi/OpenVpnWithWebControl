@@ -14,18 +14,18 @@ OpenVpnWithWebControl
 
 ###安装必要组件，下载源码和创建文件夹
 
-yum -y install gcc
-mkdir /openvpn 
-yum install -y mysql-server mysql mysql-devel 
-yum install -y wget unzip
-yum upgrade -y curl
-yum install -y wget
-yum install -y ncurses-devel libuuid-devel zlib zlib-devel sqlite-devel readline-devel tkinter tcl-devel tk-devel lzma libgdbm-dev xz-devel
-yum -y install bzip2-devel sqlite-devel openssl-devel readline-devel xz-devel xz-devel tk-devel gdbm-devel
-yum -y install openssl openssl-devel
-yum install -y expect
-yum install libffi-devel -y
-yum install unzip -y
+yum -y install gcc<br>
+mkdir /openvpn <br>
+yum install -y mysql-server mysql mysql-devel <br>
+yum install -y wget unzip<br>
+yum upgrade -y curl<br>
+yum install -y wget<br>
+yum install -y ncurses-devel libuuid-devel zlib zlib-devel sqlite-devel readline-devel tkinter tcl-devel tk-devel lzma libgdbm-dev xz-devel<br>
+yum -y install bzip2-devel sqlite-devel openssl-devel readline-devel xz-devel xz-devel tk-devel gdbm-devel<br>
+yum -y install openssl openssl-devel<br>
+yum install -y expect<br>
+yum install libffi-devel -y<br>
+yum install unzip -y<br>
 
 vi /etc/sysconfig/iptables
 
