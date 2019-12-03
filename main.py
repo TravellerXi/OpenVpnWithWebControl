@@ -119,6 +119,13 @@ def home():
     with open('static/pcormobile.html','r',encoding='utf-8') as f:
         return(f.read())
 
+ 
+@app.route('/introduce', methods=['GET', 'POST'])
+def home():
+    with open('static/introuduce.html','r',encoding='utf-8') as f:
+        return(f.read())
+
+    
 @app.route('/signin', methods=['GET'])
 def signin_form():
     user = request.cookies.get('username')
@@ -374,7 +381,7 @@ def vpn_gene():
         else:
             url = vpn_generator(user)
             return (
-                        title_setup_pc('VPN相关')+'VPN配置文件已经生成，点下方链接下载<br>' + '<a href="download" target="_blank">下载您的专属配置文件</a><br><a href="https://pan.mytlu.cn/net.html" target="_blank">点此查看如何下载客户端以及配置使用VPN</a>')
+                        title_setup_pc('VPN相关')+'VPN配置文件已经生成，点下方链接下载<br>' + '<a href="download" target="_blank">下载您的专属配置文件</a><br><a href="introduce" target="_blank">点此查看如何下载客户端以及配置使用VPN</a>')
 
 
 @app.route('/signup', methods=['GET'])
