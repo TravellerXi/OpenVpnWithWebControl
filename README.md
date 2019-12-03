@@ -172,3 +172,15 @@ nohup python3 /openvpn/main.py > /openvpn/main.log 2>&1 &
 
 ###请登入系统后尽快修改管理员密码以及注册码。
 
+
+###tips:
+
+##如果遇到网页正常打开，但是下载的配置文件连接VPN时无法连接。这一般是防火墙问题导致。较为方便可行的解决方案是卸载重装OPENVPN组件，方法如下：
+cd /openvpn
+
+sh openvpn-install.sh (然后选择move，然后一路确认)
+
+sh openvpn-install.sh  (一路确认安装)
+
+###这时重新去网页上下载配置文件并导入，应该能成功连接。如再有问题，欢迎附上详细图文说明，开启一个issue。
+
