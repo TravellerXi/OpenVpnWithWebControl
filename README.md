@@ -101,9 +101,9 @@ yum clean all && yum makecache
 
 ####配置启动mysql
 
-service mysql start
+service mysqld start
 
-mysql -uroot < /openvpn/openvpn.sql
+mysql -uroot < /openvpn/static/openvpn.sql
 
 
 
