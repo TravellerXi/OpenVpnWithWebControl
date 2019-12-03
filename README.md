@@ -82,9 +82,9 @@ unzip master
 
 cd /openvpn
 
-chmod +x install-vpn.sh
+chmod +x openvpn-install.sh
 
-./install-vpn.sh
+bash openvpn-install.sh
 
 #如果遇到以下错误：
 
