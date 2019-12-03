@@ -128,7 +128,7 @@ chmod +x *
 
 nohup python3 /openvpn/main.py > /openvpn/main.log 2>&1 &
 
-#浏览器输入本机IP即可访问管理后台。
+#浏览器输入服务器IP即可访问管理后台。
 
 
 
