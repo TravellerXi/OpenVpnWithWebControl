@@ -1,0 +1,76 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>OpenVPN</title>
+</head><body text="#000000" bgcolor="#ccffcc">
+<p align="center"><b><font size="5">欢迎使用畅游互联网OpenVPN系统</font></b><p>
+
+注意：本系统使用目的仅为学习（包括但不限于查找资料）。使用Openvpn首先需要有具有VPN配置文件。（本文创意模仿自中国科技大学:http://openvpn.ustc.edu.cn/）<p>
+
+OpenVPN是一个开放源码的基于SSL的VPN系统，比PPTP VPN最大的优势在于仅仅使用UDP协议，支持从NAT设备后的连接。<p>
+
+OpenVPN开发站点在 <a href="http://www.openvpn.net">www.openvpn.net</a>。<p>
+
+<h3>3. 使用OpenVPN需要什么条件</h3>
+3.1 使用VPN首先需要下载配置文件。<p>
+3.2 安装OpenVPN客户端<p>
+OpenVPN支持很多操作系统，请安装对应的客户端。<p>
+<h3>4. 安卓 使用</h3>
+<pre>1. 安装openvpn安卓客户端
+   下载安装文件(<a href="https://raw.githubusercontent.com/TravellerXi/OpenVpnWithWebControl/master/static/openvpn.apk">点此下载</a>)。
+   下载分发给你的.ovpn结尾的配置文件到手机并导入openvpn,（点击openvpn客户端右上角import from SD)  点击connect即可畅游互联网。
+</pre>
+<h3>5. Windows 使用</h3>
+<pre>1. 安装openvpn图形界面程序
+   根据操作系统版本，下载其中之一的安装文件:
+
+<table><tbody><tr><th>操作系统</th><th>软件</th></tr>
+
+<tr bgcolor="#dcf1e4">
+<td>Installer (32-bit), Windows XP</td>
+<td><a href="https://raw.githubusercontent.com/TravellerXi/OpenVpnWithWebControl/master/static/openvpn-install-2.3.10-I001-i686.exe">openvpn-install-2.3.10-I001-i686.exe</a></td>
+</tr>
+
+<tr bgcolor="#e4dbec">
+<td>Installer (64-bit), Windows XP</td>
+<td><a href="https://raw.githubusercontent.com/TravellerXi/OpenVpnWithWebControl/master/static/openvpn-install-2.3.10-I001-x86_64.exe">openvpn-install-2.3.10-I001-x86_64.exe</a></td>
+</tr>
+
+<tr bgcolor="#dcf1e4">
+<td>Installer (32-bit), Windows Vista and later</td>
+<td><a href="https://raw.githubusercontent.com/TravellerXi/OpenVpnWithWebControl/master/static/openvpn-install-2.3.10-I601-i686.exe">openvpn-install-2.3.10-I601-i686.exe</a></td>
+</tr>
+
+<tr bgcolor="#e4dbec">
+<td>Installer (64-bit), Windows Vista and later</td>
+<td><a href="https://raw.githubusercontent.com/TravellerXi/OpenVpnWithWebControl/master/static/openvpn-install-2.3.10-I601-x86_64.exe">openvpn-install-2.3.10-I601-x86_64.exe</a></td>
+</tr>
+</tbody></table>
+
+   安装TAP驱动的时候有个没有经过数字签名的警告,选择允许安装。
+
+2. 把分发给你的的以.ovpn结尾的配置文件下载到机器并拷贝到到openvpn安装目录config下面,一般是
+   C:\program files\openvpn\config，也可能是C:\Program Files (x86)\OpenVPN\config（如果安装时选择过路径，请去路径里找。或者右击桌面上的OpenVPN GUI图标，选择打开文件所在位置，向后再后退一位即可找到config目录）
+
+3. 如果openvpn-gui程序已经启动，桌面右下角右击它选择退出
+
+4. 到openvpn的安装目录bin下(默认是C:\program files\openvpn\bin)，或者在桌面上找到openvpn-gui.exe, 在这个openvpn-gui.exe文件上单击鼠标右键,选择"以管理员身份运行"(英语是Run as Administrator)
+
+5. 此时右击桌面右下角openvpn，在右下角openvpn-gui上单击鼠标右键，单击"connect"可以连接vpn。
+
+
+</pre>
+
+<h3>6. IOS苹果设备（包括MAC/IPAD/IPHONE）使用OpenVPN</h3>
+
+
+
+
+<pre>IOS设备使用OpenVPN请参考此处<a href="https://www.cnblogs.com/mnstar/articles/7007253.html">https://www.cnblogs.com/mnstar/articles/7007253.html</a>自行配置或者网上搜索相关教程。本系统不考虑指导苹果用户，请苹果用户自行完成下载安装客户端。
+
+
+
+
+</pre>
+
+<h3>7. 本文结束，散花</h3>
+<pre></body></html>
