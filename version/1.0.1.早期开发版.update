@@ -2,7 +2,7 @@
 2. 增加网页在线更新系统功能。
 3. 想要更多功能，欢迎在issue里提出。
 4. 如想在早期版本升级至1.0.1，请在服务器上运行以下命令：
-cd /openvpn/ && mkdir version/ && touch version/version && echo '0' > version/version && wgethttps://raw.githubusercontent.com/TravellerXi/OpenVpnWithWebControl/master/checkupdate.py && rm -rf main.py  && wget https://raw.githubusercontent.com/TravellerXi/OpenVpnWithWebControl/master/main.py
+cd /openvpn/ && mkdir version/ && touch version/version && echo '0' > version/version && wget https://raw.githubusercontent.com/TravellerXi/OpenVpnWithWebControl/master/checkupdate.py && rm -rf main.py  && wget https://raw.githubusercontent.com/TravellerXi/OpenVpnWithWebControl/master/main.py
 
 
 
