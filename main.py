@@ -204,7 +204,7 @@ def get_fav():
 @app.route('/updateversion',methods=['GET'])
 def updateversion_get():
     updateversion()
-    return (title_setup_pc('升级成功')+'升级成功！请返回首页<br><a href="/>返回首页</a>&nbsp<a href="/signup">返回注册</a>')
+    return (title_setup_pc('升级成功')+'升级成功！请返回首页<br><a href="/">返回首页</a>')
 
 @app.route('/deluser',methods=['GET'])
 def deluser():
@@ -240,7 +240,7 @@ def deluser_post():
         else:
             return(title_setup_pc('无权操作')+'用户不是管理员，无权操作！<br><a href="/">返回首页</a>&nbsp<a href="/signup">返回注册</a>')
     else:
-        return redirect(title_setup_pc('error')+'用户未登陆！<br><a href="/signin">返回登录</a>&nbsp<a href="/signup">返回注册</a>')
+        return (title_setup_pc('error')+'用户未登陆！<br><a href="/signin">返回登录</a>&nbsp<a href="/signup">返回注册</a>')
 
 @app.route('/addadmin',methods=['GET'])
 def addadmin():
@@ -252,7 +252,7 @@ def addadmin():
                                   <p><button type="submit">提升该用户为管理员</button></p>
                                   </form>''')
     else:
-            return redirect(title_setup_pc('error')+'用户未登陆！<br><a href="/signin">返回登录</a>&nbsp<a href="/signup">返回注册</a>')
+            return (title_setup_pc('error')+'用户未登陆！<br><a href="/signin">返回登录</a>&nbsp<a href="/signup">返回注册</a>')
 
 
 @app.route('/addadmin', methods=['POST'])
@@ -276,7 +276,7 @@ def addadmin_post():
         else:
             return(title_setup_pc('无权操作')+'用户不是管理员，无权操作！<br><a href="/">返回首页</a>&nbsp<a href="/signup">返回注册</a>')
     else:
-        return redirect(title_setup_pc('error')+'用户未登陆！<br><a href="/signin">返回登录</a>&nbsp<a href="/signup">返回注册</a>')
+        return (title_setup_pc('error')+'用户未登陆！<br><a href="/signin">返回登录</a>&nbsp<a href="/signup">返回注册</a>')
 
 
 
@@ -290,7 +290,7 @@ def changeinvitecode_get():
                                   <p><button type="submit">修改</button></p>
                                   </form>''')
     else:
-            return redirect(title_setup_pc('error')+'用户未登陆！<br><a href="/signin">返回登录</a>&nbsp<a href="/signup">返回注册</a>')
+            return (title_setup_pc('error')+'用户未登陆！<br><a href="/signin">返回登录</a>&nbsp<a href="/signup">返回注册</a>')
 
 
 @app.route('/changeinvitecode', methods=['POST'])
@@ -306,7 +306,7 @@ def changeinvitecode_post():
 
         return (title_setup_pc('修改成功') + '邀请码修改成功！<br><a href="/">返回首页</a>')
     else:
-        return redirect(title_setup_pc('error')+'用户未登陆！<br><a href="/signin">返回登录</a>&nbsp<a href="/signup">返回注册</a>')
+        return (title_setup_pc('error')+'用户未登陆！<br><a href="/signin">返回登录</a>&nbsp<a href="/signup">返回注册</a>')
 
 
 
@@ -322,7 +322,7 @@ def change_passwd():
                                   <p><button type="submit">修改</button></p>
                                   </form>''')
     else:
-            return redirect(title_setup_pc('error')+'用户未登陆！<br><a href="/signin">返回登录</a>&nbsp<a href="/signup">返回注册</a>')
+            return (title_setup_pc('error')+'用户未登陆！<br><a href="/signin">返回登录</a>&nbsp<a href="/signup">返回注册</a>')
 
 
 @app.route('/changepasswd', methods=['POST'])
@@ -342,7 +342,7 @@ def change_passwd_post():
         db.close()
         return (title_setup_pc('修改成功') + '密码修改成功！<br><a href="/signin">返回登录</a>')
     else:
-        return redirect(title_setup_pc('error')+'用户未登陆！<br><a href="/signin">返回登录</a>&nbsp<a href="/signup">返回注册</a>')
+        return (title_setup_pc('error')+'用户未登陆！<br><a href="/signin">返回登录</a>&nbsp<a href="/signup">返回注册</a>')
 
 
 
