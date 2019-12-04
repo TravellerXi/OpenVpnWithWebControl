@@ -90,6 +90,13 @@ mysql -uroot < /openvpn/static/openvpn.sql
 
 
 ###安装Python3.6.5
+
+##注意：
+
+#Python 3，在下述安装中，使用Python3.6.5，其他Python3版本亦可。（换言之，如果安装了Python3，即可跳过Python3，安装，但需执行pip3 install flask pymysql paramiko requests，详情见安装手册）
+
+
+
 cd /openvpn/ 
 
 wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tgz
