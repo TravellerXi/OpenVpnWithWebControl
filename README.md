@@ -42,7 +42,7 @@
 
 #数据库采用Mysql，默认创建用户openvpn，密码openvpn，建立本地数据库openvpn。
 
-<br><br><br>
+<br><br>
 
 
 
