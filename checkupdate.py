@@ -10,8 +10,8 @@ def checkupdate():
     with open('version/version', 'r') as f:
         versionLocal = f.read()
     versionLocal = versionLocal.replace('.', '')
-    if versionOnline > versionLocal:
-        return(versionOnline)
+    if int(versionOnline) > int(versionLocal):
+        return(int(versionOnline))
     else:
         return(0)
 
