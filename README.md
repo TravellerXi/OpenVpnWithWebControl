@@ -60,6 +60,8 @@
 
 <a href="https://raw.githubusercontent.com/TravellerXi/OpenVpnWithWebControl/master/static/installationStep" target='_blank'>>>>点此开始阅读安装手册，开始安装本程序</a>
 
+<a href="https://github.com/TravellerXi/OpenVpnWithWebControl/blob/master/static/installationStep" target='_blank'>>>>安装手册备用链接</a>
+
 <br><br>
 
 #欢迎各位在使用过程中对产品BUG、功能改进等方面提出宝贵的意见。可以在Issue里提。
