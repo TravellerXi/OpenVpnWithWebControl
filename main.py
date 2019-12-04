@@ -125,7 +125,12 @@ def introduce_post():
     with open('static/introuduce.html','r',encoding='utf-8') as f:
         return(f.read())
 
-    
+@app.route('/mobile/introduce', methods=['GET'])
+def introduce_post_mobile():
+    with open('static/introuduce.html','r',encoding='utf-8') as f:
+        return(f.read())
+  
+
 @app.route('/signin', methods=['GET'])
 def signin_form():
     user = request.cookies.get('username')
