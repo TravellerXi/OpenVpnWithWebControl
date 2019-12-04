@@ -1,11 +1,12 @@
 # coding:utf-8
 # OpenVpnWithWebControl
-OpenVpnWithWebControl
+
 
 <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
 
 
-###这是一款提供web管理界面的OPENVPN，功能包括但不限于（仍在开发）：
+# 这是一款提供web管理界面的OPENVPN，功能包括但不限于（仍在开发）：
+
 
 #1. 管理员登录。
 
