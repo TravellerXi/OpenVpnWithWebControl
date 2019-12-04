@@ -199,7 +199,7 @@ def Success_login():
 
 @app.route('/favicon.ico',methods=['GET'])
 def get_fav():
-    return app.send_static_file('favicon.ico')
+    return app.send_static_file('static/favicon.ico')
 
 @app.route('/updateversion',methods=['GET'])
 def updateversion_get():
