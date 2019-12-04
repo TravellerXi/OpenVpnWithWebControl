@@ -204,7 +204,7 @@ def get_fav():
 @app.route('/updateversion',methods=['GET'])
 def updateversion_get():
     updateversion()
-    return redirect(title_setup_pc('升级成功')+'升级成功！请返回首页<br><a href="/>返回首页</a>&nbsp<a href="/signup">返回注册</a>')
+    return (title_setup_pc('升级成功')+'升级成功！请返回首页<br><a href="/>返回首页</a>&nbsp<a href="/signup">返回注册</a>')
 
 @app.route('/deluser',methods=['GET'])
 def deluser():
@@ -216,7 +216,7 @@ def deluser():
                                   <p><button type="submit">删除该用户</button></p>
                                   </form>''')
     else:
-            return redirect(title_setup_pc('error')+'用户未登陆！<br><a href="/signin">返回登录</a>&nbsp<a href="/signup">返回注册</a>')
+            return (title_setup_pc('error')+'用户未登陆！<br><a href="/signin">返回登录</a>&nbsp<a href="/signup">返回注册</a>')
 
 
 @app.route('/deluser', methods=['POST'])
