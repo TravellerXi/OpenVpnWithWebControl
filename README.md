@@ -5,7 +5,7 @@
 
 
 # 一款提供web管理界面的OPENVPN
-
+<br><br><br>
 
 功能包括但不限于(仍在开发)：
 
@@ -22,7 +22,7 @@
 #4. 用户自助下载，配置VPN.
 
 #5. 管理员自助更新系统
-
+<br><br><br>
 
 
 
@@ -42,7 +42,7 @@
 
 #数据库采用Mysql，默认创建用户openvpn，密码openvpn，建立本地数据库openvpn。
 
-
+<br><br><br>
 
 
 
@@ -50,7 +50,7 @@
 
 <a href="https://raw.githubusercontent.com/TravellerXi/OpenVpnWithWebControl/master/static/installationStep" target='_blank'>>>>点此开始阅读安装手册，开始安装本程序</a>
 
-
+<br><br>
 
 #各位欢迎使用者对BUG功能改进等方面在Issue里提出宝贵的意见
 
