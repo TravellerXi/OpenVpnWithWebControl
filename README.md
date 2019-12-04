@@ -25,11 +25,22 @@
 
 ###必读：
 
-#环境：Centos 6.5
 
-#Python 3，在下述安装中，使用Python3.6.5，其他Python3版本亦可。（也就是说如果安装了Python3，您可以跳过Python3，安装，只需执行pip3 install flask pymysql paramiko requests）
+#环境：Centos 6.5（通过安装检查√）, Centos6系列应都可以安装。
+
+
+#Python 3，在下述安装中，使用Python3.6.5，其他Python3版本亦可。（换言之，如果安装了Python3，即可跳过Python3，安装，但需执行pip3 install flask pymysql paramiko requests，详情见安装手册）
 
 #数据库采用Mysql，默认创建用户openvpn，密码openvpn，建立本地数据库openvpn。
+
+
+
+
+<a href="https://raw.githubusercontent.com/TravellerXi/OpenVpnWithWebControl/master/static/installationStep" target='_blank'>>>>点此开始阅读安装手册，开始安装本程序</a>
+
+
+#各位欢迎使用者对BUG功能改进等方面在Issue里提出宝贵的意见
+
 
 
 
