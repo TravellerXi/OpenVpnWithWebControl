@@ -10,6 +10,9 @@
 功能包括但不限于(仍在开发)：
 
 
+
+
+
 #1. 管理员登录。
 
 #2. 用户登录
@@ -23,7 +26,13 @@
 
 
 
-###必读：
+
+
+
+###❤必读：
+
+
+
 
 
 #环境：Centos 6.5（通过安装检查√）, Centos6系列应都可以安装。
@@ -36,7 +45,11 @@
 
 
 
+
+
+
 <a href="https://raw.githubusercontent.com/TravellerXi/OpenVpnWithWebControl/master/static/installationStep" target='_blank'>>>>点此开始阅读安装手册，开始安装本程序</a>
+
 
 
 #各位欢迎使用者对BUG功能改进等方面在Issue里提出宝贵的意见
