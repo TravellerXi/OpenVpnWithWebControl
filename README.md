@@ -41,6 +41,14 @@
 #Python 3，在下述安装中，使用Python3.6.5，其他Python3版本亦可。（换言之，如果安装了Python3，即可跳过Python3，安装，但需执行pip3 install flask pymysql paramiko requests，详情见安装手册）
 
 #数据库采用Mysql，默认创建用户openvpn，密码openvpn，建立本地数据库openvpn。
+<br>
+#网站默认信息：
+
+###默认管理员admin，密码admin
+
+###默认邀请注册码openvpn
+
+###请登入系统后尽快修改管理员密码以及注册码
 
 <br><br>
 
