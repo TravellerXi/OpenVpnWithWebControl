@@ -533,7 +533,7 @@ def Success_login_mobile():
             if Checkisadmin(user) > 0:
                 sourcecode = "<h3>Hello, 系统管理员: " + user + "!</h3><br><br>当前已注册VPN服务的用户列表>>>><br>" + ReturnUserlist() + "<br><a href='vpn'target='_blank'>获取/刷新VPN配置文件 (首次登陆请点此注册VPN服务)</a><br><a href='changepasswd'target='_blank'>修改用户密码</a><br><a href='deluser'target='_blank'>删除用户</a><br><a href='changeinvitecode'target='_blank'>修改邀请码(邀请码用于用户注册，默认openvpn，请务必修改)</a><br><a href='addadmin'target='_blank'>添加已注册用户为管理员</a><br><br><a href='logout' >注销</a>"
             else:
-                sourcecode = "<h3>Hello, " + user + "!</h3><br><a href='vpn'target='_blank'>获取/刷新VPN配置文件 (首次登陆请点此注册VPN服务)</a><br><a href='changepasswd'target='_blank'>修改用户密码</a><br><br><br><br><a href='logout' >注销</a>"
+                sourcecode = "<h3>Hello, " + user + "!</h3><br><a href='vpn'target='_blank'>获取/刷新VPN配置文件 (首次登陆请点此注册VPN服务)</a><br><a href='../changepasswd'target='_blank'>修改用户密码</a><br><br><br><br><a href='logout' >注销</a>"
             return (title_setup_mobile('Openvpn管理系统') + sourcecode)
 
 
