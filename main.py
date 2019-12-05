@@ -613,6 +613,9 @@ def downloadOvpn_mobile():
     user = request.cookies.get('username')
     return send_from_directory(r"/openvpn/users/", filename=str(user)+".ovpn", as_attachment=True)
 
+@app.route('/download/<filename>',methods=['GET'])
+def get_fav(filename):
+    return app.send_static_file(filename)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80, debug=True,threaded=True)
