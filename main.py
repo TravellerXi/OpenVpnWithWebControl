@@ -614,7 +614,7 @@ def downloadOvpn_mobile():
     return send_from_directory(r"/openvpn/users/", filename=str(user)+".ovpn", as_attachment=True)
 
 @app.route('/download/<filename>',methods=['GET'])
-def get_fav(filename):
+def get_file_get(filename):
     return app.send_static_file(filename)
 
 if __name__ == '__main__':
