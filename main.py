@@ -276,7 +276,7 @@ def signin_form():
 
     if not md5credit:
 
-        return (title_setup_pc('欢迎登录Openvpn管理系统')+'''<form action="/signin" method="post">
+        return (title_setup_pc('欢迎登录网络管理系统')+'''<form action="/signin" method="post">
 
                               <p>用户名：<input name="username"></p>
 
@@ -294,7 +294,7 @@ def signin_form():
 
         if not result:
 
-            return (title_setup_pc('欢迎登录Openvpn管理系统')+'''<form action="/signin" method="post">
+            return (title_setup_pc('欢迎登录网络管理系统')+'''<form action="/signin" method="post">
 
                           <p>用户名：<input name="username"></p>
 
@@ -960,7 +960,7 @@ def signin_form_mobile():
 
     if not md5credit:
 
-        return (title_setup_mobile('欢迎登录Openvpn管理系统')+'''<form action="/mobile/signin" method="post">
+        return (title_setup_mobile('欢迎登录网络管理系统')+'''<form action="/mobile/signin" method="post">
 
                               <p>用户名：<input name="username"></p>
 
@@ -978,7 +978,7 @@ def signin_form_mobile():
 
         if not result:
 
-            return (title_setup_mobile('欢迎登录Openvpn管理系统')+'''<form action="/mobile/signin" method="post">
+            return (title_setup_mobile('欢迎登录网络管理系统')+'''<form action="/mobile/signin" method="post">
 
                           <p>用户名：<input name="username"></p>
 
