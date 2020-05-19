@@ -1,2 +1,3 @@
 #!/bin/bash
-nohup python3 /openvpn/main.py > /openvpn/main.log 2>&1 & echo $! > /openvpn/process.pid &
+cd /V2rayWithWebControl/
+nohup /usr/bin/python3 main.py > main.log 2>&1 & echo $! > /V2rayWithWebControl/process.pid &
